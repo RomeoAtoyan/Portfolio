@@ -1,0 +1,110 @@
+.web_skills_container {
+  box-sizing: content-box;
+  width: 75%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ui_ux_skills_container {
+  box-sizing: content-box;
+  width: 60%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+}
+
+.editing_skills_container {
+  box-sizing: content-box;
+  width: 60%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+}
+
+.skill_icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 20px;
+}
+
+.skill_icons img {
+  object-fit: contain;
+  width: 140px;
+}
+
+.fa-html5::after {
+  font-size: small;
+  content: "HTML";
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-css3-alt::after {
+  content: "CSS";
+  font-size: small;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-js::after {
+  content: " JavaScript";
+  font-size: small;
+  letter-spacing: 2px;
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-react::after {
+  content: "React";
+  font-size: small;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-feather::after {
+  content: "MongoDB";
+  font-size: small;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-bootstrap::after {
+  content: "Bootstrap";
+  font-size: small;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.github_skill::after {
+  content: "Git";
+  color: black;
+  font-size: small;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.technical {
+  width: 375px;
+  height: 450px;
+  border: 1px solid var(--main-contrast-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px;
+  color: var(--main-text-color);
+}
