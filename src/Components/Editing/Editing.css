@@ -1,9 +1,0 @@
-.editing_container {
-    width: 60%;
-    margin: 0 auto;
-}
-
-.editing_container h1 {
-    padding: 15px;
-    border: 1px solid var(--main-accent-color);
-}

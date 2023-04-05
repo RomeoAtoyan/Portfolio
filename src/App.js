@@ -1,5 +1,4 @@
 import "./App.css";
-import Editing from "./Components/Editing/Editing";
 import Introduction from "./Components/Introduction/Introduction";
 import Navbar from "./Components/Navbar/Navbar";
 import Skills from "./Components/Skills/Skills";

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Work.css";
-import Fade from "react-reveal/Fade";
+
 import "animate.css";
 import CardWork from "./CardWork";
 
@@ -10,7 +10,7 @@ const Work = () => {
       <div className="development_work">
         <CardWork title="Development" />
         <div className="websites_iframes">
-          <Fade bottom>
+          {/* <Fade bottom> */}
             <iframe
               title="CineHub"
               width="500px"
@@ -25,7 +25,7 @@ const Work = () => {
               src="https://digi-verse.vercel.app/"
               frameborder="0"
             ></iframe>
-          </Fade>
+          {/* </Fade> */}
         </div>
       </div>
     </main>

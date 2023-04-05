@@ -1,7 +1,6 @@
 import React from "react";
 import "animate.css";
 import Card from "./Card";
-import Fade from "react-reveal/Fade";
 import photoshop from "./photoshop.png";
 import figma from "./figma.png";
 import premiere from "./premiere.png";
@@ -11,7 +10,7 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <>
-      <Fade left reset>
+      {/* <Fade left reset> */}
         <aside className="web_skills_container">
           <Card
             icon="fa-solid fa-code fa-2x"
@@ -46,8 +45,8 @@ const Skills = () => {
             ></i>
           </div>
         </aside>
-      </Fade>
-      <Fade right>
+      {/* </Fade> */}
+      {/* <Fade right> */}
         <aside className="ui_ux_skills_container">
           <Card
             icon="fa-solid fa-mobile-screen-button fa-2x"
@@ -59,8 +58,8 @@ const Skills = () => {
             <img src={figma} alt="" />
           </div>
         </aside>
-      </Fade>
-      <Fade left>
+      {/* </Fade> */}
+       {/* <Fade left> */}
         <aside className="editing_skills_container">
           <Card
             icon="fa-solid fa-film fa-2x"
@@ -72,7 +71,7 @@ const Skills = () => {
             <img src={aftereffects} alt="" />
           </div>
         </aside>
-      </Fade>
+      {/* </Fade> */}
     </>
   );
 };
