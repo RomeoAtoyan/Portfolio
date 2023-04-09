@@ -3,7 +3,6 @@ import Introduction from "./Components/Introduction/Introduction";
 import Navbar from "./Components/Navbar/Navbar";
 import Skills from "./Components/Skills/Skills";
 import Work from "./Components/Work/Work";
-import Form from "./Components/Form/Form";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <Introduction />
       <Skills />
       <Work />
-      <Form />
     </div>
   );
 }

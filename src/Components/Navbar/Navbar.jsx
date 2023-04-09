@@ -7,6 +7,7 @@ const Navbar = () => {
     <nav className="navbar_container animate__animated animate__fadeInDown ">
       <div className="nav_left">
         <h1>R</h1>
+        <a href="mailto:atoyanr@gmail.com">atoyanr@gmail.com</a>
       </div>
       <div className="nav_right">
         <ul>

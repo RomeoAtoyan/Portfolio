@@ -10,6 +10,22 @@
   padding: 10px;
 }
 
+.nav_left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav_left a {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.nav_left a:hover {
+  text-decoration: underline;
+}
+
 .nav_left h1 {
   background-color: transparent;
   border-radius: 50%;
