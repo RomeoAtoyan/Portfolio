@@ -2,7 +2,6 @@
   width: 60%;
   margin: 50px auto;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -13,7 +12,6 @@
   flex-direction: row-reverse;
   justify-content: flex-start;
   align-items: center;
-  /* gap: 100px; */
 }
 
 .editing_skills_container {
@@ -22,14 +20,21 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  /* gap: 100px; */
+}
+
+.frontend {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
 .skill_icons {
   display: flex;
   justify-content: space-between;
-  padding: 40px;
-  gap: 20px;
+  gap: 10px;
+  margin-left: 10px;
 }
 
 .skill_icons img {
@@ -105,3 +110,57 @@
   padding: 30px;
   color: var(--main-text-color);
 }
+
+@media only screen and (min-width: 250px) and (max-width: 700px) {
+  .web_skills_container {
+    width: 90%;
+  }
+
+  .frontend {
+    width: 100%;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .frontend i {
+    width: 75%;
+    font-size: 3em;
+  }
+
+  .ui_ux_skills_container {
+    width: 90%;
+  }
+
+  .skill_icons {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .skill_icons img {
+    aspect-ratio: 5/4;
+  }
+
+  .editing_skills_container {
+    width: 90%;
+  }
+
+  .work_container {
+    width: 100% !important;
+  }
+
+  .work_container h1 {
+    padding: 0;
+  }
+}
+
+/* @media only screen and (min-width: 768px) and (max-height: 1024px) {
+  .web_skills_container {
+    width: 90%;
+  }
+
+  .frontend {
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+  }
+} */

@@ -1,31 +1,26 @@
 import React from "react";
 import "./Work.css";
-
+import cinehub from "./CH.png";
+import digiverse from "./digifavicon.ico";
 import "animate.css";
 import CardWork from "./CardWork";
 
 const Work = () => {
   return (
     <main className="work_container">
-      <div className="development_work">
-        <CardWork title="Development" />
-        <div className="websites_iframes">
-          {/* <Fade bottom> */}
-            <iframe
-              title="CineHub"
-              width="500px"
-              height="600px"
-              src="https://cine-hub.vercel.app/"
-              frameborder="0"
-            ></iframe>
-            <iframe
-              title="DigiVerse"
-              width="500px"
-              height="600px"
-              src="https://digi-verse.vercel.app/"
-              frameborder="0"
-            ></iframe>
-          {/* </Fade> */}
+      <CardWork title="Development" />
+      <div className="websites_links">
+        <div className="link">
+          <a id="cinehub" href="https://cine-hub.vercel.app/">
+            CineHub
+          </a>
+          <img src={cinehub} alt="" />
+        </div>
+        <div className="link">
+          <a id="digiverse" href="https://digi-verse.vercel.app/">
+            DigiVerse
+          </a>
+          <img src={digiverse} alt="" />
         </div>
       </div>
     </main>

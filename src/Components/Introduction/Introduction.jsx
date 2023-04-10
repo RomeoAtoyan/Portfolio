@@ -17,7 +17,7 @@ const Introduction = () => {
       <span className="animate__animated animate__fadeInDown">
         Hi, I'm Romeo Atoyan
       </span>
-      <h1 className="animate__animated animate__fadeInDown">
+      <h1 id="type" className="animate__animated animate__fadeInDown">
         <TypewriterComponent
           options={{
             autoStart: true,
