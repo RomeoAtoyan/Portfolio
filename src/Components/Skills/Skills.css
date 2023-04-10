@@ -124,7 +124,11 @@
 
   .frontend i {
     width: 75%;
-    font-size: 3em;
+    font-size: 3.5em;
+  }
+
+  .frontend i::after {
+    content: "";
   }
 
   .ui_ux_skills_container {
