@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 15px;
+  padding: 20px 25px;
   border: 1px solid var(--main-accent-color);
   outline: none;
   background-color: transparent;
