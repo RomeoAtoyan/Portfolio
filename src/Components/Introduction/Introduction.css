@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 20px 25px;
+  padding: 15px 20px;
   border: 1px solid var(--main-accent-color);
   outline: none;
   background-color: transparent;
@@ -60,5 +60,9 @@
 
   .introduction_container h3 {
     font-size: 15px;
+  }
+
+  .introduction_container button {
+    font-size: large;
   }
 }
