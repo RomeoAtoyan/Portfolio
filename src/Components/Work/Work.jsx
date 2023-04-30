@@ -2,26 +2,41 @@ import React from "react";
 import "./Work.css";
 import cinehub from "./CH.png";
 import digiverse from "./digifavicon.ico";
+import universe from "./universe.png";
+import best from "./best.png";
 import "animate.css";
 import CardWork from "./CardWork";
+import ProjectsCard from "./Projects";
 
 const Work = () => {
   return (
     <main className="work_container">
       <CardWork title="Development" />
       <div className="websites_links">
-        <div className="link">
-          <a id="cinehub" href="https://cine-hub.vercel.app/">
-            CineHub
-          </a>
-          <img src={cinehub} alt="" />
-        </div>
-        <div className="link">
-          <a id="digiverse" href="https://digi-verse.vercel.app/">
-            DigiVerse
-          </a>
-          <img src={digiverse} alt="" />
-        </div>
+        <ProjectsCard
+          projectId="cinehub"
+          projectLink="https://cine-hub.vercel.app/"
+          projectSource={cinehub}
+          projectTitle="CineHub"
+        />
+        <ProjectsCard
+          projectId="digiverse"
+          projectLink="https://digi-verse.vercel.app/"
+          projectSource={digiverse}
+          projectTitle="DigiVerse"
+        />
+        <ProjectsCard
+          projectId="universe"
+          projectLink="https://universe-unleashed.vercel.app/"
+          projectSource={universe}
+          projectTitle="Universes Unleashed"
+        />
+        <ProjectsCard
+          projectId="bestofcinema"
+          projectLink="https://vue-movie-app-romeoatoyan.vercel.app/"
+          projectSource={best}
+          projectTitle="The Best of Cinema"
+        />
       </div>
     </main>
   );

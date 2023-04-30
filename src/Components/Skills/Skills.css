@@ -50,6 +50,14 @@
   justify-content: center;
 }
 
+.fa-vuejs::after {
+  content: "VUE";
+  font-size: small;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
 .fa-css3-alt::after {
   content: "CSS";
   font-size: small;

@@ -29,6 +29,7 @@ const Skills = () => {
           ></i>
           <i class="fa-brands fa-js fa-8x" style={{ color: "#f7e018" }}></i>
           <i class="fa-brands fa-react fa-8x" style={{ color: "#61dbfb" }}></i>
+          <i class="fa-brands fa-vuejs fa-8x" style={{ color: "#42b883" }}></i>
           <i class="fa-solid fa-feather fa-8x" style={{ color: "#53ab4d" }}></i>
           <i
             class="fa-brands github_skill fa-github fa-8x"
